@@ -1,3 +1,5 @@
+// Optimal solution with O(2n) => O(n) time complexity
+
 module.exports = function sortCategoriesForInsert (inputJson) {
     let properJsonOutput = [], tree = {}, roots = [];
     
